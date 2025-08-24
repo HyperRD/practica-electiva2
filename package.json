@@ -1,0 +1,17 @@
+{
+  "name": "hola-mundo-web",
+  "version": "1.0.0",
+  "description": "App web Hola Mundo con Express",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "jest --ci"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.4"
+  }
+}
